@@ -70,7 +70,7 @@ Local-Global-Alignment-Tools/
 
 ## Outputs
 - **Console:** sequence lengths and alignment text.
-- **Plot:** edit-graph window in R’s graphics device.
+- **Plot:** edit-graph window in R’s graphics device; maximum scoring local alignment(s) circled in magenta.
 - **File:** `user_alignment.tsv` for results from "Quick Start" section; `myalignment.txt` for original unedited code execution.
 
 ## Troubleshooting
