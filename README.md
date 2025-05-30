@@ -37,9 +37,8 @@ Local-Global-Alignment-Tools/
 
 ├── `README.md`          # this file
 
-├── `myalignment.txt`    # alignment result file from script
+└── `myalignment.txt`    # alignment result file from script
 
-└── `outputs` # file for user created output files
 
 ## Quick Start
 1. Open `local-global.R` in your R environment.
@@ -61,7 +60,7 @@ Local-Global-Alignment-Tools/
            w      = result_gsa$vectorW,
            i      = nrow(result_gsa$b),
            j      = ncol(result_gsa$b),
-           fn     = "outputs/my_alignment.tsv"
+           fn     = "user_alignment.tsv"
        )
 
 ## Custom Usage
@@ -72,7 +71,7 @@ Local-Global-Alignment-Tools/
 ## Outputs
 - **Console:** sequence lengths and alignment text.
 - **Plot:** edit-graph window in R’s graphics device.
-- **File:** TSV alignment in outputs/.
+- **File:** `user_alignment.tsv` for results from "Quick Start" section; `myalignment.txt` for original unedited code execution.
 
 ## Troubleshooting
 - **Folder not found:** create outputs/ manually in bash:
