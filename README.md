@@ -74,4 +74,4 @@ Local-Global-Alignment-Tools/
 - **File:** `user_alignment.tsv` for results from "Quick Start" section; `myalignment.txt` for original unedited code execution.
 
 ## Troubleshooting
-- **Performance:** very long sequences (>5 000 residues) may run slowly in pure R loops.
+- **Performance:** very long sequences (>5000 residues) may run slowly in pure R loops.
