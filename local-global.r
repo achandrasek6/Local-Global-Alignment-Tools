@@ -90,7 +90,7 @@ plot_edit_graph <- function(dst, backtrace)
   # PARAMETERS
   # pass <object>$s -- returned by find_lsa() -- as the argument to the *dst* parameter
   # pass <object>$b -- returned by find_lsa() -- as the argument to the *backtrace* parameter, 
-  #  <object> is the name you gave to the list returned by find_lsa() -- e.g., q$s and q$b if you ran q <- find_lsa(...)
+  #  <object> is the name given to the list returned by find_lsa() -- e.g., q$s and q$b if one runs q <- find_lsa(...)
 {
   len <- dim(backtrace)
   v <- vector(mode="numeric")
