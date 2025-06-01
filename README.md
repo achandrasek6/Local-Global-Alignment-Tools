@@ -31,7 +31,7 @@ Two example DNA sequence pairs are included:
 
 ## Directory Structure
 
-Local-Global-Alignment-Tools/
+`Local-Global-Alignment-Tools/`
 
 ├── `local-global.R`    # alignment functions & examples
 
