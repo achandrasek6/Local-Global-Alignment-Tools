@@ -35,9 +35,11 @@ Local-Global-Alignment-Tools/
 
 ├── `local-global.R`    # alignment functions & examples
 
-├── `README.md`          # this file
+├── `README.md`         # this file
 
-└── `myalignment.txt`    # alignment result file from script
+├── `edit_graph.pdf`    # outputted edit graph
+
+└── `myalignment.txt`   # alignment result file from script
 
 
 ## Quick Start
